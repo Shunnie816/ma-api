@@ -1,0 +1,61 @@
+
+
+
+@media(max-width: 1150px) {
+
+    .page-title h1 {
+        font-size: 55px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+    
+    .headline {
+        font-size: 26px;
+    }
+
+    .my-img {
+        float: none;
+        width: 60%;
+        padding: 0 55px 0 55px;
+        text-align: center;
+    }
+
+    .my-img img {
+        object-fit: contain;
+        height: fit-content;
+        border-radius: 6px;
+    }
+    
+    .description {
+        float: none;
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        padding: 0 55px 0 55px;
+    }
+
+    .hobby {
+        width: 50%;
+        padding: 20px 15px 20px 15px;
+        font-size: 20px;
+    }
+
+    .message {
+        font-size: 18px;
+        margin: 0 5px 0 5px;
+    }
+
+    .footer-logo {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+}
+
+/*responsive design のmax-width: 670pxを作る*/
+
+@media(max-width: 670px) {
+
+}
