@@ -54,8 +54,55 @@
 
 }
 
-/*responsive design のmax-width: 670pxを作る*/
-
 @media(max-width: 670px) {
+
+    .page-title h1 {
+        font-size: 45px;
+    }
+
+    .sub-title {
+        font-size: 14px;
+    }
+
+    .headline {
+        font-size: 18px;
+    }
+
+    .section {
+        display: none;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .fa-bars {
+        display: block;
+        float: right;
+        font-size: 45px;
+        color: white;
+        margin: 10px 0;
+        /*font-sizeが適用されない, display blockも×になっている*/
+    }
+
+    .my-img {
+        width: 100%;
+        padding: 0 55px 0 15px;
+    }
+
+    .description {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+    }
+
+    .hobbies {
+        flex-direction: column;
+    }
+
+    .hobby {
+        width: 100%;
+        font-size: 14px;
+    }
+
 
 }
