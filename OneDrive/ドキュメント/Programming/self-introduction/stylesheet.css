@@ -161,7 +161,7 @@ header {
     color: darkslategray;
 }
 
-.btn {
+#btn {
     display: inline-block;
     padding: 12px 25px;
     margin-top: 40px;
@@ -170,6 +170,10 @@ header {
     color: white;
     background-color: darkslategray;
     border-radius: 5px;
+}
+
+#btn:hover {
+    cursor: pointer;
 }
 
 footer {
@@ -194,4 +198,26 @@ footer {
     height: auto;
     transition: .5s;
     padding: 30px 0 45px 0;
+}
+
+.modal {
+    /* display: none; */
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    height: 100px;
+    width: 30%;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    border: 3px;
+    border-radius: 4px;
+    border-color: darkslategray;
+}
+
+
+
+.modal p {
+    font-size: 20px;
 }
