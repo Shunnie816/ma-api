@@ -203,7 +203,7 @@ footer {
 .modal {
     display: none;
     text-align: center;
-    padding: 30px;
+    padding: 20px 0 30px 0;
     margin: 0 auto;
     background-color: antiquewhite;
     height: 100px;
@@ -211,13 +211,22 @@ footer {
     position: fixed;
     top: 50%;
     left: 35%;
-    border: 3px;
+    border: solid 3px;
     border-radius: 4px;
     border-color: darkslategray;
 }
 
-
-
 .modal p {
     font-size: 20px;
 }
+
+.fa-xmark {
+    color: black;
+    font-size: 12px;
+}
+
+/*
+.fa-twitter {
+    font-size: 12px;
+    color: black;
+} */
