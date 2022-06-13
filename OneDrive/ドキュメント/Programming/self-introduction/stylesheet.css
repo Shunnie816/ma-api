@@ -200,6 +200,7 @@ footer {
     padding: 30px 0 45px 0;
 }
 
+/* classes for modal window */
 .modal {
     display: none;
     text-align: center;
@@ -220,10 +221,22 @@ footer {
     font-size: 20px;
 }
 
+.modal-close-btn {
+    position: relative;
+}
+
 .fa-xmark {
     color: black;
-    font-size: 12px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
 }
+
+.fa-xmark:hover {
+    cursor: pointer;
+}
+
 
 /*
 .fa-twitter {
