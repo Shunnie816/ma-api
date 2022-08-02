@@ -21,7 +21,10 @@ div {
 
 body {
     max-width: 1920px;
+}
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
@@ -62,7 +65,7 @@ header {
 
 .home-wrapper {
     height: 600px;
-    background-image: url("https: //github.com/Shunnie816/Shunnie816.github.io/blob/8553c68ca18029bb47c0f2d8c8c5c18924175433/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/Programming/Shunnie's%20room/img/S__68747269.jpg");
+    background-image: url("../image/S__68747269.jpg");
     background-position: 50% 40%;
     background-size: cover;
     opacity: 0, 9;
@@ -79,7 +82,7 @@ header {
 }
 
 .sub-title {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 90px;
 }
 
@@ -115,8 +118,10 @@ header {
     float: right;
     width: 50%;
     color: darkslategray;
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 10px;
+    text-align: justify;
+    /* padding: 42px; */
 }
 
 
