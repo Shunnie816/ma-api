@@ -27,6 +27,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
@@ -53,7 +57,7 @@ header {
     line-height: 65px;
 }
 
-.section p {
+.section a {
     display: inline-block;
     width: 20%;
     color: ivory;
