@@ -19,12 +19,7 @@ div {
     max-width: 1920px;
 } */
 
-/* .container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-} */
+
 
 /* 共通部分 */
 html {
@@ -49,6 +44,12 @@ li {
 
 image {
     max-width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*  header
