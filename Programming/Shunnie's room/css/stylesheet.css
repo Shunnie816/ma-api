@@ -30,9 +30,13 @@ html {
     box-sizing: border-box;
 }
 
-p {
-    font-family: 'Source Sans Pro', sans-serif;
+h1,
+h2,
+p,
+a {
+    font-family: 'PT Serif', serif;
 }
+
 
 a {
     text-decoration: none;
@@ -98,7 +102,8 @@ header {
 
 .page-title h1 {
     padding: 200px 0 50px 0;
-    font-size: 7.0rem;
+    font-size: 7.5rem;
+    font-style: italic;
 }
 
 .sub-title {
@@ -227,6 +232,7 @@ footer {
     line-height: 60px;
     color: rgb(23, 71, 57);
     font-size: 2.5rem;
+    font-style: italic;
 }
 
 /* classes for toggle */
