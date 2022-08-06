@@ -119,40 +119,33 @@ header {
 .about-me-wrapper {
     background-color: lightgoldenrodyellow;
     padding-top: 8%;
-    /* padding: 100px 0 80px 0; */
 }
 
 .headline {
-    padding-top: 30px;
+    padding: 2.0rem 0;
     border-bottom: 2px solid dimgray;
     font-size: 3.2rem;
     text-align: center;
     color: darkslategray;
-    cursor: pointer;
 }
 
-
-.my-img {
-    float: left;
-    width: 50%;
-    padding: 0 20px 0 20px;
+.profile {
+    display: flex;
 }
 
-.my-img img {
-    width: 100%;
-    height: 410px;
+.profile img {
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 0.6rem;
+    margin: 3.0rem;
+    width: 50%;
 }
 
-.description {
-    float: right;
+.profile p {
     width: 50%;
     color: darkslategray;
     font-size: 2.8rem;
-    margin-bottom: 10px;
     text-align: justify;
-    /* padding: 42px; */
+    margin: 3.0rem 2.0rem;
 }
 
 /* hobbies-wrapper
