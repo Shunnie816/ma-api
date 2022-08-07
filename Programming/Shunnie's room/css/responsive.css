@@ -55,6 +55,11 @@
 
 @media(max-width: 670px) {
 
+    /* 共通部分 */
+    .headline {
+        font-size: 18px;
+    }
+
 
     /* header */
     header {
@@ -90,6 +95,7 @@
         background-color: ivory;
         height: 100vh;
     }
+
     .submenu-title {
         text-align: center;
         font-size: 1.5rem;
@@ -118,30 +124,25 @@
         color: black;
     }
 
-    /* .x-btn {
-        display: flex;
-    }
-
-    .x-btn a {
-        justify-content: flex-end;
-    } */
-
-
     /* about-me */
-    .headline {
-        font-size: 18px;
+    .profile {
+        flex-direction: column;
     }
 
-    .my-img {
+    .profile img {
         width: 100%;
-        padding: 0 55px 0 15px;
+        padding: 1.5rem;
+        border-radius: 1.0rem;
     }
 
-    .description {
-        font-size: 12px;
-        padding: 0 5px 0 5px;
+    .profile p {
+        width: 100%;
+        font-size: 2.0rem;
+        padding: 0 1.5rem;
+        line-height: 3.0rem;
     }
 
+    /* hobbies */
     .hobbies {
         flex-direction: column;
     }
@@ -151,5 +152,15 @@
         font-size: 14px;
     }
 
+    /* footer */
+    footer {
+        height: 4.0rem;
+    }
+
+    .footer-logo {
+        font-size: 1.5rem;
+        line-height: normal;
+        padding-top: 0.5rem;
+    }
 
 }

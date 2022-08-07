@@ -135,7 +135,7 @@ header {
 .profile img {
     object-fit: cover;
     border-radius: 0.6rem;
-    margin: 3.0rem;
+    padding: 3.0rem;
     width: 50%;
     object-position: 20%;
     /* height: 40rem; */
@@ -146,7 +146,7 @@ header {
     color: darkslategray;
     font-size: 2.7rem;
     text-align: justify;
-    margin: 3.0rem 2.0rem;
+    padding: 3.0rem 2.0rem;
 }
 
 /* hobbies-wrapper
