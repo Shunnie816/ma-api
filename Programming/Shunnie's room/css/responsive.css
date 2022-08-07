@@ -74,9 +74,13 @@
         display: block;
         float: right;
         font-size: 4.0rem;
-        color: seashell;
+        color: darkslategray;
         margin: 5% 5%;
         /*font-sizeが適用されない, display blockも×になっている*/
+    }
+
+    #white-bar {
+        color: seashell;
     }
 
     /* home */
@@ -100,6 +104,7 @@
         text-align: center;
         font-size: 1.5rem;
         padding-top: 15%;
+        color: darkslategray;
     }
 
     .submenu-btn {
@@ -114,14 +119,14 @@
     .submenu-btn a {
         font-size: 1.8rem;
         font-weight: bold;
-        color: black;
+        color: darkslategray;
     }
 
     .fa-x {
         font-size: 4.0rem;
         margin: 5% 5%;
         float: right;
-        color: black;
+        color: darkslategray;
     }
 
     /* about-me */
