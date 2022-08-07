@@ -1,12 +1,14 @@
 @media(max-width: 1150px) {
 
-    .page-title h1 {
-        font-size: 55px;
-    }
 
-    .sub-title {
+
+    /* .page-title h1 {
+        font-size: 55px;
+    } */
+
+    /* .sub-title {
         font-size: 18px;
-    }
+    } */
 
     .headline {
         font-size: 26px;
@@ -53,33 +55,81 @@
 
 @media(max-width: 670px) {
 
-    .page-title h1 {
-        font-size: 45px;
-    }
 
-    .sub-title {
-        font-size: 14px;
-    }
-
-    .headline {
-        font-size: 18px;
+    /* header */
+    header {
+        background: none;
     }
 
     .section {
         display: none;
     }
 
-    header {
-        height: 60px;
-    }
-
     .fa-bars {
         display: block;
         float: right;
-        font-size: 45px;
-        color: white;
-        margin: 10px 0;
+        font-size: 4.0rem;
+        color: seashell;
+        margin: 5% 5%;
         /*font-sizeが適用されない, display blockも×になっている*/
+    }
+
+    /* home */
+    .page-title h1 {
+        font-size: 4.0rem;
+    }
+
+    .page-title p {
+        font-size: 2.0rem;
+        margin-top: 90%;
+    }
+
+    /* submenu */
+
+    .submenu {
+        background-color: ivory;
+        height: 100vh;
+    }
+    .submenu-title {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 15%;
+    }
+
+    .submenu-btn {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .submenu-btn li {
+        margin: 20px 0;
+    }
+
+    .submenu-btn a {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: black;
+    }
+
+    .fa-x {
+        font-size: 4.0rem;
+        margin: 5% 5%;
+        float: right;
+        color: black;
+    }
+
+    /* .x-btn {
+        display: flex;
+    }
+
+    .x-btn a {
+        justify-content: flex-end;
+    } */
+
+
+    /* about-me */
+    .headline {
+        font-size: 18px;
     }
 
     .my-img {
