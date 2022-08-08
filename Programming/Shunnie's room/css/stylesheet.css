@@ -154,22 +154,20 @@ header {
 .hobbies-wrapper {
     background-color: lightgoldenrodyellow;
     padding-top: 10%;
-    /* padding: 100px 0 80px 0; */
 }
 
 .hobby {
-    /* float: left; */
-    /* padding: 0 5px 0 5px; */
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.0rem;
     font-size: 2.5rem;
     text-align: center;
     color: darkslategray;
-
+    margin-top: 1.0rem;
 }
 
 .image {
-    width: 25%;
-    margin: 1.0rem 1.0rem;
+    margin: 1.0rem 0;
 }
 
 .image img {
@@ -203,6 +201,10 @@ header {
     text-align: center;
     font-size: 2.0rem;
     color: darkslategray;
+}
+
+.message p {
+    margin-top: 1.0rem;
 }
 
 #btn {

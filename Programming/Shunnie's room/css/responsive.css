@@ -36,9 +36,9 @@
     }
 
     .hobby {
-        width: 50%;
         padding: 20px 15px 20px 15px;
         font-size: 20px;
+        grid-template-columns: 1fr 1fr;
     }
 
     .message {
@@ -55,13 +55,15 @@
 
 @media(max-width: 670px) {
 
-    /* 共通部分 */
+    /* 共通部分
+    ---------------------------------------------------- */
     .headline {
         font-size: 18px;
     }
 
 
-    /* header */
+    /* header 
+    ----------------------------------------------------*/
     header {
         background: none;
     }
@@ -83,7 +85,8 @@
         color: seashell;
     }
 
-    /* home */
+    /* home 
+    ----------------------------------------------------*/
     .page-title h1 {
         font-size: 4.0rem;
     }
@@ -93,7 +96,8 @@
         margin-top: 90%;
     }
 
-    /* submenu */
+    /* submenu 
+    ----------------------------------------------------*/
 
     .submenu {
         background-color: ivory;
@@ -129,7 +133,8 @@
         color: darkslategray;
     }
 
-    /* about-me */
+    /* about-me 
+    ----------------------------------------------------*/
     .profile {
         flex-direction: column;
     }
@@ -144,20 +149,23 @@
         width: 100%;
         font-size: 2.0rem;
         padding: 0 1.5rem;
+        margin-bottom: 1.5rem;
         line-height: 3.0rem;
     }
 
-    /* hobbies */
-    .hobbies {
-        flex-direction: column;
-    }
-
+    /* hobbies
+    ---------------------------------------------------- */
     .hobby {
-        width: 100%;
-        font-size: 14px;
+        font-size: 2.0rem;
+        grid-template-columns: 1fr;
     }
 
-    /* footer */
+    /* contact me 
+    ----------------------------------------------------*/
+
+
+    /* footer 
+    ----------------------------------------------------*/
     footer {
         height: 4.0rem;
     }
