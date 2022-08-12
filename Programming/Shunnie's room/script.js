@@ -6,3 +6,5 @@ thumbs.forEach(function (item, index) {
         document.getElementById('bigimg').src = this.dataset.image;
     }
 });
+
+// const images = [''];

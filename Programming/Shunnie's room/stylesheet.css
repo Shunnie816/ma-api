@@ -90,6 +90,33 @@ header {
     margin-top: 9.0rem;
 }
 
+.toolbar {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev {
+    margin-right: 0.5 rem;
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+#next {
+    margin-left: 0.5 rem;
+    width: 5.0rem;
+    height: 5.0rem;
+}
+
+.fa-solid {
+    font-size: 5.0rem;
+    color: seashell;
+}
+
 
 /* about-me-wrapper
 ---------------------------------------------------- */
@@ -161,6 +188,10 @@ header {
 
 .image {
     margin: 1.0rem 0.5rem;
+}
+
+.image:hover {
+    cursor: pointer;
 }
 
 .image img {
