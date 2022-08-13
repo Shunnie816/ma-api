@@ -96,23 +96,30 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 3%;
+    left: 45%;
+    color: seashell;
 }
 
 #prev {
-    /* margin-right: 0.5 rem; */
     width: 5.0rem;
     height: 5.0rem;
 }
 
 #next {
-    /* margin-left: 0.5 rem; */
     width: 5.0rem;
     height: 5.0rem;
 }
 
 .fa-solid {
-    font-size: 5.0rem;
-    color: seashell;
+    font-size: 4.5rem;
+}
+
+#page {
+    font-family: 'PT Serif', serif;
+    font-size: 3.0rem;
+    margin: 0 2.0rem;
 }
 
 
