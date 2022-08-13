@@ -1,20 +1,42 @@
 @media(max-width: 1150px) {
 
 
-
-    /* .page-title h1 {
-        font-size: 55px;
-    } */
-
-    /* .sub-title {
-        font-size: 18px;
-    } */
-
-    .headline {
-        font-size: 26px;
+    /* Home wrapper */
+    .page-title p {
+        margin-top: 40rem;
     }
 
-    .my-img {
+    .nav {
+        padding-top: 16rem;
+    }
+
+    /* about me */
+    .headline {
+        font-size: 2.6rem;
+        margin-top: 5%;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 2.0rem;
+        object-fit: contain;
+        height: 54rem;
+    }
+
+    .profile p {
+        width: 100%;
+        font-size: 2.5rem;
+        padding: 0 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    /* .my-img {
         float: none;
         width: 60%;
         padding: 0 55px 0 55px;
@@ -33,14 +55,16 @@
         font-size: 20px;
         text-align: left;
         padding: 0 55px 0 55px;
-    }
+    } */
 
+    /* Hobbies */
     .hobby {
         padding: 20px 15px 20px 15px;
         font-size: 20px;
         grid-template-columns: 1fr 1fr;
     }
 
+    /* Contact me */
     .message {
         font-size: 18px;
         margin: 0 5px 0 5px;
@@ -96,6 +120,10 @@
         margin-top: 90%;
     }
 
+    .nav {
+        padding-top: 10rem;
+    }
+
     /* submenu 
     ----------------------------------------------------*/
 
@@ -135,21 +163,17 @@
 
     /* about-me 
     ----------------------------------------------------*/
-    .profile {
-        flex-direction: column;
-    }
 
     .profile img {
         width: 100%;
         padding: 1.5rem;
         border-radius: 1.0rem;
+        height: auto;
     }
 
     .profile p {
         width: 100%;
         font-size: 2.0rem;
-        padding: 0 1.5rem;
-        margin-bottom: 1.5rem;
         line-height: 3.0rem;
     }
 
@@ -158,6 +182,10 @@
     .hobby {
         font-size: 2.0rem;
         grid-template-columns: 1fr;
+    }
+
+    .bigimg img {
+        display: none;
     }
 
     /* contact me 
