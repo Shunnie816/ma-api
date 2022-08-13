@@ -74,6 +74,7 @@ header {
 }
 
 .page-title {
+    z-index: 5;
     color: seashell;
     text-align: center;
 }
@@ -90,24 +91,21 @@ header {
     margin-top: 9.0rem;
 }
 
-.toolbar {
-    text-align: center;
-}
-
 .nav {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #prev {
-    margin-right: 0.5 rem;
+    /* margin-right: 0.5 rem; */
     width: 5.0rem;
     height: 5.0rem;
 }
 
 #next {
-    margin-left: 0.5 rem;
+    /* margin-left: 0.5 rem; */
     width: 5.0rem;
     height: 5.0rem;
 }
