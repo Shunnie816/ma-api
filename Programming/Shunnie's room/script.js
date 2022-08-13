@@ -10,7 +10,7 @@ thumbs.forEach(function (item, index) {
 });
 
 
-// home-wrapper slide-show
+// home-wrapper slide-show用の画像
 const images = [
     'https://github.com/Shunnie816/Shunnies-room/blob/master/tree_road.jpg?raw=true',
     'https://github.com/Shunnie816/Shunnies-room/blob/master/beach1.JPG?raw=true',
@@ -19,6 +19,7 @@ const images = [
     'https://github.com/Shunnie816/Shunnies-room/blob/master/sunset.jpg?raw=true'
 ];
 
+// その他のページで使う画像
 const extraImages = [
     'https://github.com/Shunnie816/Shunnies-room/blob/master/my_photo.jpg?raw=true',
     'https://github.com/Shunnie816/Shunnies-room/blob/master/piano.jpg?raw=true',
@@ -26,6 +27,12 @@ const extraImages = [
     'https://github.com/Shunnie816/Shunnies-room/blob/master/bike.jpg?raw=true',
     'https://github.com/Shunnie816/Shunnies-room/blob/master/game.jpg?raw=true'
 ];
+
+// 画像をあらかじめ読み込む
+function preloadImage(path) {
+    let imgTag = document.createElement('img');
+    imgTag.src = path;
+}
 
 images.forEach(function (item, index) {
     preloadImage(item);
@@ -35,6 +42,8 @@ extraImages.forEach(function (item, index) {
     preloadImage(item);
 }); 
 
+
+// home-wrapper slide show 
 let current = 0;
 const mainImage = document.getElementById('main-image');
 
@@ -54,16 +63,11 @@ pageNum();
 
 document.getElementById('prev').onclick = function () {
     changeImage(-1);
-    console.log("左がクリックされました");
+    // console.log("左がクリックされました");
 };
 
 document.getElementById('next').onclick = function () {
     changeImage(1);
-    console.log("右がクリックされました");
+    // console.log("右がクリックされました");
 };
 
-// 画像をあらかじめ読み込む
-function preloadImage(path) {
-    let imgTag = document.createElement('img');
-    imgTag.src = path;
-}
