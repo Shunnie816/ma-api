@@ -1,0 +1,27 @@
+title: additional-info.v1
+x-stoplight:
+  id: 60hlqabhhkgju
+type: object
+description: 会社情報に追加する情報
+properties:
+  comment:
+    type: string
+    x-stoplight:
+      id: jwpvxtv7w7pmj
+    description: 備考欄
+  tel:
+    type: string
+    x-stoplight:
+      id: teocc7iegzh5i
+  mail:
+    type: string
+    x-stoplight:
+      id: nyz3dlm2pkjkk
+  role:
+    type: string
+    x-stoplight:
+      id: 7xeb9xdsuc8jc
+  name:
+    type: string
+    x-stoplight:
+      id: 5qtbc98wnj62d
