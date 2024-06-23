@@ -1,0 +1,303 @@
+openapi: 3.0.0
+x-stoplight:
+  id: 7zhzet9l20ddf
+info:
+  title: companies
+  version: 1.0.0
+  description: 会社情報の検索、情報追加を行うためのAPI
+  contact:
+    name: albert-ma
+servers:
+  - url: 'http://localhost:8000'
+paths:
+  /companies:
+    parameters: []
+    post:
+      summary: 会社検索
+      operationId: company-search
+      responses:
+        '200':
+          description: OK
+          headers: {}
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Companies'
+      description: |-
+        会社情報を検索する
+        クエリパラメータが多すぎるため、リクエストボディに検索パラメータを入れるPOSTメソッドを採用する。(値を更新するわけではないので、GETメソッドのように使用してください。)
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                type:
+                  type: string
+                properties:
+                  type: object
+                  properties:
+                    name:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    corporate_number:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    exist_flg:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    corporate_type:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    prefecture:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    city:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    capital_stock_from:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    capital_stock_to:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    employee_number_from:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    employee_number_to:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    founded_year:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    sales_area:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    business_item:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    unified_qualification:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    unified_qualification_sub01:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    unified_qualification_sub02:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    unified_qualification_sub03:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    unified_qualification_sub04:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    net_sales_summary_of_business_results_from:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    net_sales_summary_of_business_results_to:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    net_income_loss_summary_of_business_results_from:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    net_income_loss_summary_of_business_results_to:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    total_assets_summary_of_business_results_from:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    total_assets_summary_of_business_results_to:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    name_major_shareholders:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    average_continuous_service_years:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    average_age:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    month_average_predetermined_overtime_hours:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    female_workers_proportion:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    year:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    ministry:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    source:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    page:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                    limit:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                required:
+                  type: array
+                  items:
+                    type: object
+                    properties: {}
+              x-examples:
+                Example 1:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    corporate_number:
+                      type: string
+                    exist_flg:
+                      type: string
+                    corporate_type:
+                      type: string
+                    prefecture:
+                      type: string
+                    city:
+                      type: string
+                    capital_stock_from:
+                      type: string
+                    capital_stock_to:
+                      type: string
+                    employee_number_from:
+                      type: string
+                    employee_number_to:
+                      type: string
+                    founded_year:
+                      type: string
+                    sales_area:
+                      type: string
+                    business_item:
+                      type: string
+                    unified_qualification:
+                      type: string
+                    unified_qualification_sub01:
+                      type: string
+                    unified_qualification_sub02:
+                      type: string
+                    unified_qualification_sub03:
+                      type: string
+                    unified_qualification_sub04:
+                      type: string
+                    net_sales_summary_of_business_results_from:
+                      type: string
+                    net_sales_summary_of_business_results_to:
+                      type: string
+                    net_income_loss_summary_of_business_results_from:
+                      type: string
+                    net_income_loss_summary_of_business_results_to:
+                      type: string
+                    total_assets_summary_of_business_results_from:
+                      type: string
+                    total_assets_summary_of_business_results_to:
+                      type: string
+                    name_major_shareholders:
+                      type: string
+                    average_continuous_service_years:
+                      type: string
+                    average_age:
+                      type: string
+                    month_average_predetermined_overtime_hours:
+                      type: string
+                    female_workers_proportion:
+                      type: string
+                    year:
+                      type: string
+                    ministry:
+                      type: string
+                    source:
+                      type: string
+                    page:
+                      type: string
+                    limit:
+                      type: string
+                  required: []
+        description: 会社情報の検索パラメータ
+      tags:
+        - companies
+components:
+  schemas:
+    Companies:
+      type: array
+      x-stoplight:
+        id: 42194bd7be78b
+      items:
+        $ref: ./models/company-full.v1.yaml
+      title: Companies
+tags:
+  - name: companies
